@@ -1,0 +1,121 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Barra de navegación */
+.navbar {
+  background-color: #b87f92 !important; /* Color original */
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+  text-decoration: none;
+  color: white !important; /* Letras blancas para el logo */
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white !important; /* Letras blancas para los enlaces */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #d9c0a3 !important; /* Color al pasar el mouse */
+}
+
+/* Estilos del menú desplegable */
+.nav-item.dropdown .dropdown-menu {
+  background-color: #681430; /* Color original */
+  border-radius: 10px;
+  display: none; /* Se ocultará inicialmente */
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block; /* Se muestra al hacer hover */
+}
+
+.nav-item.dropdown .dropdown-item {
+  padding: 12px 16px;
+  color: white !important; /* Letras blancas en el menú desplegable */
+  text-decoration: none;
+}
+
+.nav-item.dropdown .dropdown-item:hover {
+  background-color: #7f0e31; /* Color original */
+}
+
+/* Estilos de contenido principal */
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.content h4 {
+  margin-top: 1rem;
+  font-size: 24px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 3%;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.edit-btn {
+  background-color: #91133c; /* Color original */
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.edit-btn:hover {
+  background-color: #91133c; /* Color original */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #91133c; /* Color original */
+  color: white;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
